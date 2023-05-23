@@ -1,0 +1,70 @@
+body {
+    background-color: #d4f1ff;
+}
+h2 {
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+    letter-spacing: .125rem;
+}
+#title {
+    animation: animated-text 2s steps(11,end) 0.5s 1 normal both,
+    animated-cursor 750ms steps(11,end) infinite; 
+  }
+form {
+    display: flex;
+    font-size: 1.7rem;
+    justify-content: center;
+    margin: 15px 0;
+    padding: 1rem;
+    width: 100%;
+}
+form input {
+    padding: .5rem;
+    font-size: .875rem;
+    border: none;
+    /* outline: none; */
+    /* border-radius: 15; */
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    max-width: 25rem;
+    transition: background-color 200ms ease-in-out;
+    width: 100%;
+}
+button {
+    border: none;
+    /* outline: none; */
+    transition: box-shadow 200ms ease, background-color 200ms ease-in-out;
+}
+button:hover {
+    cursor: pointer;
+}
+form button {
+    padding: .5rem;
+    font-size: .875rem;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    min-width: 3.125rem;
+}
+.btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #7A2048;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.display {
+    align-items: center;
+    margin-left: 32rem;
+}
